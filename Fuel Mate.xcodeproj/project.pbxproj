@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		574758E6209994DE006EC506 /* VehicalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574758E5209994DE006EC506 /* VehicalTableViewController.swift */; };
+		574758E8209995DB006EC506 /* VehicalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574758E7209995DB006EC506 /* VehicalTableViewCell.swift */; };
+		574758EA2099A275006EC506 /* AddVehicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574758E92099A275006EC506 /* AddVehicalViewController.swift */; };
+		576A9F5D2094423F007E4DB5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A9F5C2094423F007E4DB5 /* TableViewCell.swift */; };
+		57B7A5592094A38600650F55 /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B7A5582094A38600650F55 /* AddExpenseViewController.swift */; };
+		57C7FCE0207F1E84007C9259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7FCDF207F1E84007C9259 /* AppDelegate.swift */; };
+		57C7FCE2207F1E84007C9259 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7FCE1207F1E84007C9259 /* MainViewController.swift */; };
+		57C7FCE5207F1E84007C9259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C7FCE3207F1E84007C9259 /* Main.storyboard */; };
+		57C7FCE8207F1E84007C9259 /* Fuel_Mate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57C7FCE6207F1E84007C9259 /* Fuel_Mate.xcdatamodeld */; };
+		57C7FCEA207F1E84007C9259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C7FCE9207F1E84007C9259 /* Assets.xcassets */; };
+		57C7FCED207F1E84007C9259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C7FCEB207F1E84007C9259 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		574758E5209994DE006EC506 /* VehicalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicalTableViewController.swift; sourceTree = "<group>"; };
+		574758E7209995DB006EC506 /* VehicalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicalTableViewCell.swift; sourceTree = "<group>"; };
+		574758E92099A275006EC506 /* AddVehicalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicalViewController.swift; sourceTree = "<group>"; };
+		576A9F5C2094423F007E4DB5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		57B7A5582094A38600650F55 /* AddExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		57C7FCDC207F1E84007C9259 /* Fuel Mate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fuel Mate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C7FCDF207F1E84007C9259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57C7FCE1207F1E84007C9259 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		57C7FCE4207F1E84007C9259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57C7FCE7207F1E84007C9259 /* Fuel_Mate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fuel_Mate.xcdatamodel; sourceTree = "<group>"; };
+		57C7FCE9207F1E84007C9259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57C7FCEC207F1E84007C9259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57C7FCEE207F1E84007C9259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57C7FCD9207F1E84007C9259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		574758E22099939B006EC506 /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				576A9F5C2094423F007E4DB5 /* TableViewCell.swift */,
+				57B7A5582094A38600650F55 /* AddExpenseViewController.swift */,
+				57C7FCE1207F1E84007C9259 /* MainViewController.swift */,
+			);
+			path = Expenses;
+			sourceTree = "<group>";
+		};
+		574758E3209993B9006EC506 /* Vehical */ = {
+			isa = PBXGroup;
+			children = (
+				574758E5209994DE006EC506 /* VehicalTableViewController.swift */,
+				574758E7209995DB006EC506 /* VehicalTableViewCell.swift */,
+				574758E92099A275006EC506 /* AddVehicalViewController.swift */,
+			);
+			path = Vehical;
+			sourceTree = "<group>";
+		};
+		574758E420999493006EC506 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		57C7FCD3207F1E83007C9259 = {
+			isa = PBXGroup;
+			children = (
+				57C7FCDE207F1E84007C9259 /* Fuel Mate */,
+				57C7FCDD207F1E84007C9259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57C7FCDD207F1E84007C9259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57C7FCDC207F1E84007C9259 /* Fuel Mate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57C7FCDE207F1E84007C9259 /* Fuel Mate */ = {
+			isa = PBXGroup;
+			children = (
+				57C7FCDF207F1E84007C9259 /* AppDelegate.swift */,
+				574758E420999493006EC506 /* CoreData */,
+				574758E3209993B9006EC506 /* Vehical */,
+				574758E22099939B006EC506 /* Expenses */,
+				57C7FCE3207F1E84007C9259 /* Main.storyboard */,
+				57C7FCE9207F1E84007C9259 /* Assets.xcassets */,
+				57C7FCEB207F1E84007C9259 /* LaunchScreen.storyboard */,
+				57C7FCEE207F1E84007C9259 /* Info.plist */,
+				57C7FCE6207F1E84007C9259 /* Fuel_Mate.xcdatamodeld */,
+			);
+			path = "Fuel Mate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57C7FCDB207F1E84007C9259 /* Fuel Mate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C7FCF1207F1E84007C9259 /* Build configuration list for PBXNativeTarget "Fuel Mate" */;
+			buildPhases = (
+				57C7FCD8207F1E84007C9259 /* Sources */,
+				57C7FCD9207F1E84007C9259 /* Frameworks */,
+				57C7FCDA207F1E84007C9259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fuel Mate";
+			productName = "Fuel Mate";
+			productReference = 57C7FCDC207F1E84007C9259 /* Fuel Mate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57C7FCD4207F1E83007C9259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Talha Ghous";
+				TargetAttributes = {
+					57C7FCDB207F1E84007C9259 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 57C7FCD7207F1E83007C9259 /* Build configuration list for PBXProject "Fuel Mate" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57C7FCD3207F1E83007C9259;
+			productRefGroup = 57C7FCDD207F1E84007C9259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57C7FCDB207F1E84007C9259 /* Fuel Mate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C7FCDA207F1E84007C9259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C7FCED207F1E84007C9259 /* LaunchScreen.storyboard in Resources */,
+				57C7FCEA207F1E84007C9259 /* Assets.xcassets in Resources */,
+				57C7FCE5207F1E84007C9259 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57C7FCD8207F1E84007C9259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574758E6209994DE006EC506 /* VehicalTableViewController.swift in Sources */,
+				57C7FCE8207F1E84007C9259 /* Fuel_Mate.xcdatamodeld in Sources */,
+				576A9F5D2094423F007E4DB5 /* TableViewCell.swift in Sources */,
+				574758E8209995DB006EC506 /* VehicalTableViewCell.swift in Sources */,
+				57B7A5592094A38600650F55 /* AddExpenseViewController.swift in Sources */,
+				574758EA2099A275006EC506 /* AddVehicalViewController.swift in Sources */,
+				57C7FCE2207F1E84007C9259 /* MainViewController.swift in Sources */,
+				57C7FCE0207F1E84007C9259 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57C7FCE3207F1E84007C9259 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C7FCE4207F1E84007C9259 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57C7FCEB207F1E84007C9259 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C7FCEC207F1E84007C9259 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57C7FCEF207F1E84007C9259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57C7FCF0207F1E84007C9259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57C7FCF2207F1E84007C9259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Fuel Mate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talha.Fuel-Mate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57C7FCF3207F1E84007C9259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Fuel Mate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talha.Fuel-Mate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57C7FCD7207F1E83007C9259 /* Build configuration list for PBXProject "Fuel Mate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C7FCEF207F1E84007C9259 /* Debug */,
+				57C7FCF0207F1E84007C9259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C7FCF1207F1E84007C9259 /* Build configuration list for PBXNativeTarget "Fuel Mate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C7FCF2207F1E84007C9259 /* Debug */,
+				57C7FCF3207F1E84007C9259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		57C7FCE6207F1E84007C9259 /* Fuel_Mate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				57C7FCE7207F1E84007C9259 /* Fuel_Mate.xcdatamodel */,
+			);
+			currentVersion = 57C7FCE7207F1E84007C9259 /* Fuel_Mate.xcdatamodel */;
+			path = Fuel_Mate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 57C7FCD4207F1E83007C9259 /* Project object */;
+}
